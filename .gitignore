@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Local database — this is generated data, not source code
+data/
+
+# Secrets — NEVER commit these
+.env
+.env.lambda
+
+# Lambda build artifacts
+lambda_package.zip
+.lambda_build/
+
+# macOS
+.DS_Store
